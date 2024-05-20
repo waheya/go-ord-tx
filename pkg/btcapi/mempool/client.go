@@ -6,7 +6,8 @@ import (
 
 	"github.com/btcsuite/btcd/chaincfg"
 	"github.com/btcsuite/btcd/wire"
-	"github.com/vincentdebug/go-ord-tx/pkg/btcapi"
+
+	"github.com/waheya/go-ord-tx/pkg/btcapi"
 )
 
 type MempoolClient struct {

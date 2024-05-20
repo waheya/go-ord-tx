@@ -1,6 +1,6 @@
-module github.com/vincentdebug/go-ord-tx
+module github.com/waheya/go-ord-tx
 
-go 1.20
+go 1.19
 
 require (
 	github.com/btcsuite/btcd v0.23.4
@@ -8,6 +8,7 @@ require (
 	github.com/btcsuite/btcd/btcutil v1.1.3
 	github.com/btcsuite/btcd/chaincfg/chainhash v1.0.2
 	github.com/pkg/errors v0.9.1
+	github.com/waheya/go-ord-tx v1.0.2
 )
 
 require (

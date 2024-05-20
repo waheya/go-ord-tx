@@ -4,6 +4,8 @@ import (
 	"bytes"
 	"encoding/hex"
 	"fmt"
+	"log"
+
 	"github.com/btcsuite/btcd/blockchain"
 	"github.com/btcsuite/btcd/btcec/v2"
 	"github.com/btcsuite/btcd/btcec/v2/schnorr"
@@ -16,9 +18,9 @@ import (
 	"github.com/btcsuite/btcd/txscript"
 	"github.com/btcsuite/btcd/wire"
 	"github.com/pkg/errors"
-	"github.com/vincentdebug/go-ord-tx/pkg/btcapi"
-	extRpcClient "github.com/vincentdebug/go-ord-tx/pkg/rpcclient"
-	"log"
+
+	"github.com/waheya/go-ord-tx/pkg/btcapi"
+	extRpcClient "github.com/waheya/go-ord-tx/pkg/rpcclient"
 )
 
 type InscriptionData struct {
